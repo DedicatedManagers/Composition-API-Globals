@@ -4,17 +4,21 @@
   <ComponentOne />
   <hr>
   <ComponentTwo />
+  <hr>
+  <ComponentThree />
 </template>
 
 <script>
 import ComponentOne from './components/ComponentOne.vue'
 import ComponentTwo from './components/ComponentTwo.vue'
+import ComponentThree from './components/ComponentThree.vue'
 
 export default {
   name: 'App',
   components: {
     ComponentOne,
     ComponentTwo,
+    ComponentThree,
   }
 }
 </script>
